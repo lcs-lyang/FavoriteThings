@@ -9,15 +9,24 @@ import SwiftUI
 
 struct ThirdFavoriteView: View {
     var body: some View {
-        VStack{
+        
+        
+        ScrollView{
             
-            Image ("cat")
-                    .resizable()
-                    .scaledToFit()
+            VStack{
+                
+                Image ("cat")
+                        .resizable()
+                        .scaledToFit()
+                
+                Text("The lazy cat is trying to get up.")
+                Spacer()
+            }
             
-            Text("The lazy cat is trying to get up.")
-            Spacer()
         }
+        
+        
+      
         .navigationTitle("Cat")
     }
 }

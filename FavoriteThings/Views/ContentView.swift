@@ -10,18 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        VStack{
+        ScrollView{
             
-            Image ("Kirby")
-                .resizable()
-                .scaledToFit()
+            VStack{
+                
+                Image ("Kirby")
+                    .resizable()
+                    .scaledToFit()
+                
+                
+                Text("Kirby singing")
+                
+                Spacer()
+     
+            }
             
-            
-            Text("Kirby singing")
-            
-            Spacer()
- 
         }
+        
+        
+        
+  
         .navigationTitle("Kirby")
     }
 }

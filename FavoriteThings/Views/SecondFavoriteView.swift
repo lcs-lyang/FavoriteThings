@@ -9,16 +9,23 @@ import SwiftUI
 
 struct SecondFavoriteView: View {
     var body: some View {
-        VStack{
+        
+        ScrollView{
             
-            Image ("Poolkirby")
-                    .resizable()
-                    .scaledToFit()
-              
-            Text("Kirby is swimming in a pool.")
+            VStack{
+                
+                Image ("Poolkirby")
+                        .resizable()
+                        .scaledToFit()
+                  
+                Text("Kirby is swimming in a pool.")
+                
+                  Spacer()
+            }
             
-              Spacer()
         }
+        
+       
         .navigationTitle("Pool Kirby")
     }
        
