@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191EF63E27270DDB00AC5F75 /* FavoriteThingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191EF63D27270DDB00AC5F75 /* FavoriteThingsListView.swift */; };
 		19B0FAFA272061600035354C /* FavoriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B0FAF9272061600035354C /* FavoriteThingsApp.swift */; };
 		19B0FAFC272061600035354C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B0FAFB272061600035354C /* ContentView.swift */; };
 		19B0FAFE272061620035354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B0FAFD272061620035354C /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		191EF63D27270DDB00AC5F75 /* FavoriteThingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsListView.swift; sourceTree = "<group>"; };
 		19B0FAF6272061600035354C /* FavoriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B0FAF9272061600035354C /* FavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsApp.swift; sourceTree = "<group>"; };
 		19B0FAFB272061600035354C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 				19B0FAFB272061600035354C /* ContentView.swift */,
 				19FBFDDA2722409100D39150 /* ThirdFavoriteView.swift */,
 				19B0FB07272065290035354C /* SecondFavoriteView.swift */,
+				191EF63D27270DDB00AC5F75 /* FavoriteThingsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				19B0FAFC272061600035354C /* ContentView.swift in Sources */,
 				19B0FB08272065290035354C /* SecondFavoriteView.swift in Sources */,
 				19B0FAFA272061600035354C /* FavoriteThingsApp.swift in Sources */,
+				191EF63E27270DDB00AC5F75 /* FavoriteThingsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
