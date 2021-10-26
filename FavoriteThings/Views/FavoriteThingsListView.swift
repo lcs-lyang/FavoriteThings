@@ -23,6 +23,17 @@ struct FavoriteThingsListView: View {
                 Text("Cat")
             }
            
+            NavigationLink(destination: FourthFavoriteView()){
+                Text ("El Parque de Retiro")
+            }
+            
+            NavigationLink(destination: FifthFavoriteView()){
+                Text ("La Alhambra")
+            }
+            
+            NavigationLink(destination: SixthFavoriteView()){
+                Text ("Duoli")
+            }
             
         }
         .navigationTitle("My Favorite Things")
