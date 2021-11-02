@@ -14,9 +14,8 @@ struct FifthFavoriteView: View {
             
             VStack{
                 
-                Image("Alhambra")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView()
+                
                 Text("""
                 La Alhambra. LA ALHAMBRA! I cannot stress enough, but this was the ONE. This is probably my favorite destination when I visited Spain. It is located in Granada which is in the south of Spain.
                      

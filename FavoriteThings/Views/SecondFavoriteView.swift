@@ -14,9 +14,7 @@ struct SecondFavoriteView: View {
             
             VStack{
                 
-                Image ("Poolkirby")
-                        .resizable()
-                        .scaledToFit()
+                PhotoCaptionView()
                   
                 Text("Kirby is swimming in a pool.")
                 

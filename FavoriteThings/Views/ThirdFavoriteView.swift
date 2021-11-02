@@ -15,9 +15,7 @@ struct ThirdFavoriteView: View {
             
             VStack{
                 
-                Image ("cat")
-                        .resizable()
-                        .scaledToFit()
+                PhotoCaptionView()
                 
                 Text("The lazy cat is trying to get up.")
                 Spacer()

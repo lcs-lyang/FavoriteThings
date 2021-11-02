@@ -14,9 +14,7 @@ struct SixthFavoriteView: View {
             
             VStack{
                 
-                Image("Duoli")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView()
                 
                 Text("""
                      
