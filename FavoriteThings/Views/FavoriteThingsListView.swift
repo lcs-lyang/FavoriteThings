@@ -12,7 +12,20 @@ struct FavoriteThingsListView: View {
         List{
             
             NavigationLink(destination: ContentView()) {
-                Text("Kirby")
+                HStack {
+                    Image("Kirby")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 50, height: 50, alignment: .center)
+                        .clipped()
+                    VStack(alignment: .leading){
+                        Text("Kirby")
+                            .bold()
+                        Text ("A really blurry picture of Kirby singing")
+                            .font(.caption)
+                    }
+                    
+                }
             }
             
             NavigationLink(destination: SecondFavoriteView()) {

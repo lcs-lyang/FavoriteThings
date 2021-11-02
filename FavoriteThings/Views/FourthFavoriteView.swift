@@ -14,7 +14,7 @@ struct FourthFavoriteView: View {
             
             VStack{
                 
-               PhotoCaptionView()
+                PhotoCaptionView(imageName: "ParquedeRetiro", caption: "Beautiful Scenery", credit: "Photo credit: Lillian")
                 
                 Text("""
                      Parque de Retiro is one of the most famous parks in Spain. Well, you are wondering how you know I know this, well, my brother and I went to Spain 2 years ago to study spanish (for about a month).

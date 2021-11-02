@@ -14,7 +14,7 @@ struct ContentView: View {
             
             VStack(alignment: .leading){
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Kirby", caption: "A really blurry picture of Kirby singing", credit: "Photo credit: kirbynation")
                 
                 
                 Text("""
@@ -39,6 +39,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
+            
         ContentView()
     }
 }

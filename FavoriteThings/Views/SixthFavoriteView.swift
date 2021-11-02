@@ -14,7 +14,7 @@ struct SixthFavoriteView: View {
             
             VStack{
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Duoli", caption: "Cute", credit: "Photo credit: Mom")
                 
                 Text("""
                      
@@ -41,6 +41,7 @@ struct SixthFavoriteView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
             SixthFavoriteView()
+            
         }
        
     }

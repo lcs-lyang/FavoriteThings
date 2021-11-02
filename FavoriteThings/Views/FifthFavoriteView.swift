@@ -14,7 +14,7 @@ struct FifthFavoriteView: View {
             
             VStack{
                 
-                PhotoCaptionView()
+                PhotoCaptionView(imageName: "Alhambra", caption: "Wow", credit: "Photo credit: Howard")
                 
                 Text("""
                 La Alhambra. LA ALHAMBRA! I cannot stress enough, but this was the ONE. This is probably my favorite destination when I visited Spain. It is located in Granada which is in the south of Spain.
