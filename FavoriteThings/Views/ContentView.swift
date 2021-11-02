@@ -14,23 +14,7 @@ struct ContentView: View {
             
             VStack(alignment: .leading){
                 
-                VStack (alignment:.leading, spacing: 10){
-                    Image ("Kirby")
-                        .resizable()
-                    .scaledToFit()
-                    
-                    VStack(alignment: .leading){
-                        Text("A really blurry picture or Kirby singing.")
-                            .font(.caption)
-                            .bold()
-                        
-                        Text("Photo credit: kirbynation")
-                            .font(.caption)
-                            .italic()
-                        
-                    }
-                    .padding(.horizontal)
-                }
+                ExtractedView()
                 
                 
                 Text("""
@@ -58,4 +42,26 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+}
+
+struct ExtractedView: View {
+    var body: some View {
+        VStack (alignment:.leading, spacing: 10){
+            Image ("Kirby")
+                .resizable()
+                .scaledToFit()
+            
+            VStack(alignment: .leading){
+                Text("A really blurry picture or Kirby singing.")
+                    .font(.caption)
+                    .bold()
+                
+                Text("Photo credit: kirbynation")
+                    .font(.caption)
+                    .italic()
+                
+            }
+            .padding(.horizontal)
+        }
+    }
 }
