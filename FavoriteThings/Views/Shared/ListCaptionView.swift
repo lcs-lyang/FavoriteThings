@@ -8,19 +8,24 @@
 import SwiftUI
 
 struct ListCaptionView: View {
+    
+    let listImageName: String
+    let listText: String
+    let listText2: String
+    
     var body: some View {
         
         NavigationLink(destination: ContentView()) {
             HStack {
-                Image("Kirby")
+                Image(listImageName)
                     .resizable()
                     .scaledToFill()
                     .frame(width: 50, height: 50, alignment: .center)
                     .clipped()
                 VStack(alignment: .leading){
-                    Text("Kirby")
+                    Text(listText)
                         .bold()
-                    Text ("A really blurry picture of Kirby singing")
+                    Text (listText2)
                         .font(.caption)
                 }
                 
@@ -33,6 +38,6 @@ struct ListCaptionView: View {
 
 struct ListCaptionView_Previews: PreviewProvider {
     static var previews: some View {
-        ListCaptionView()
+        ListCaptionView(listImageName: "Kirby", listText: "Kirby", listText2: "A really blurry picture of Kirby singing")
     }
 }

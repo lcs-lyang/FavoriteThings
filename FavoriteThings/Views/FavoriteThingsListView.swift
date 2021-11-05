@@ -11,32 +11,23 @@ struct FavoriteThingsListView: View {
     var body: some View {
         List{
             
-            ListCaptionView()
+            ListCaptionView(listImageName: "Kirby", listText: "Kirby", listText2: "A really blurry picture of Kirby singing.")
             
-            NavigationLink(destination: SecondFavoriteView()) {
-            Text("Pool Kirby")
-            }
+            ListCaptionView(listImageName: "Poolkirby", listText: "Pool Kirby", listText2: "Kirby is swimming in a pool.")
             
-            NavigationLink(destination: ThirdFavoriteView()){
-                Text("Cat")
-            }
+            ListCaptionView(listImageName: "cat", listText: "Cat", listText2: "The lazy cat is trying to get up.")
            
-            NavigationLink(destination: FourthFavoriteView()){
-                Text ("El Parque de Retiro")
-            }
+            ListCaptionView(listImageName: "ParquedeRetiro", listText: "El Parque de Retiro", listText2: "One of Madrid's famous parks.")
             
-            NavigationLink(destination: FifthFavoriteView()){
-                Text ("La Alhambra")
-            }
+            ListCaptionView(listImageName: "Alhambra", listText: "La Alhambra", listText2: "Granada's palace.")
             
-            NavigationLink(destination: SixthFavoriteView()){
-                Text ("Duoli")
+            ListCaptionView(listImageName: "Duoli", listText: "Duoli", listText2: "My favorite dog.")
             }
             
         }
         .navigationTitle("My Favorite Things")
     }
-}
+
 
 struct FavoriteThingsListView_Previews: PreviewProvider {
     static var previews: some View {
