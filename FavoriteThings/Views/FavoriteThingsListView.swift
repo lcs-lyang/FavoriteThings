@@ -11,22 +11,7 @@ struct FavoriteThingsListView: View {
     var body: some View {
         List{
             
-            NavigationLink(destination: ContentView()) {
-                HStack {
-                    Image("Kirby")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 50, height: 50, alignment: .center)
-                        .clipped()
-                    VStack(alignment: .leading){
-                        Text("Kirby")
-                            .bold()
-                        Text ("A really blurry picture of Kirby singing")
-                            .font(.caption)
-                    }
-                    
-                }
-            }
+            ListCaptionView()
             
             NavigationLink(destination: SecondFavoriteView()) {
             Text("Pool Kirby")
@@ -63,4 +48,8 @@ struct FavoriteThingsListView_Previews: PreviewProvider {
      
     }
 }
+
+
+
+    
 

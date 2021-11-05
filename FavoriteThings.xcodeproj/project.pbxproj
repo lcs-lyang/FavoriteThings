@@ -17,6 +17,7 @@
 		19B0FAFE272061620035354C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B0FAFD272061620035354C /* Assets.xcassets */; };
 		19B0FB01272061620035354C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B0FB00272061620035354C /* Preview Assets.xcassets */; };
 		19B0FB08272065290035354C /* SecondFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B0FB07272065290035354C /* SecondFavoriteView.swift */; };
+		19BD21152734CE1A00E28633 /* ListCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BD21142734CE1A00E28633 /* ListCaptionView.swift */; };
 		19FBFDDB2722409100D39150 /* ThirdFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FBFDDA2722409100D39150 /* ThirdFavoriteView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		19B0FAFD272061620035354C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B0FB00272061620035354C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19B0FB07272065290035354C /* SecondFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFavoriteView.swift; sourceTree = "<group>"; };
+		19BD21142734CE1A00E28633 /* ListCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCaptionView.swift; sourceTree = "<group>"; };
 		19FBFDDA2722409100D39150 /* ThirdFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				1995CCBC2731BD3C00DA6F3B /* PhotoCaptionView.swift */,
+				19BD21142734CE1A00E28633 /* ListCaptionView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				191EF644272786B100AC5F75 /* SixthFavoriteView.swift in Sources */,
 				191EF64227277BB500AC5F75 /* FifthFavoriteView.swift in Sources */,
 				191EF63E27270DDB00AC5F75 /* FavoriteThingsListView.swift in Sources */,
+				19BD21152734CE1A00E28633 /* ListCaptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
