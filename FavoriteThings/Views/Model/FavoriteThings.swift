@@ -10,7 +10,7 @@ import Foundation
 struct FavoriteThings {
     
     //MARK: Stored properties
-    let picName: String
+    let imageName: String
     let title: String
     let navigationSubtitle: String
     let imageCaption: String
@@ -20,7 +20,7 @@ struct FavoriteThings {
 }
 
 let listOfItems = [
-    FavoriteThings(picName: "Kirby", title: "Kirby", navigationSubtitle: "A really blurry picture of Kirby singing.", imageCaption: "A really blurry picture of Kirby singing.", imageCredit: "Photo credit: kirbynation", bodyText: """
+    FavoriteThings(imageName: "Kirby", title: "Kirby", navigationSubtitle: "A really blurry picture of Kirby singing.", imageCaption: "A really blurry picture of Kirby singing.", imageCredit: "Photo credit: kirbynation", bodyText: """
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex vel efficitur. Cras congue congue laoreet. Aliquam vehicula sollicitudin lectus a imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ultricies magna at bibendum vehicula. Proin tortor velit, pellentesque ut tincidunt nec, malesuada id elit. Suspendisse aliquam rhoncus purus at imperdiet. Curabitur finibus risus id dui scelerisque congue.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex vel efficitur. Cras congue congue laoreet. Aliquam vehicula sollicitudin lectus a imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ultricies magna at bibendum vehicula. Proin tortor velit, pellentesque ut tincidunt nec, malesuada id elit. Suspendisse aliquam rhoncus purus at imperdiet. Curabitur finibus risus id dui scelerisque congue.
@@ -28,15 +28,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex
     
     ,
     
-    FavoriteThings(picName: "Poolkirby", title: "Pool Kirby", navigationSubtitle: "Kirby is swimming in a pool.", imageCaption: "Kirby is swimming in a pool.", imageCredit: "Photo credit: kirbynation", bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex vel efficitur. Cras congue congue laoreet. Aliquam vehicula sollicitudin lectus a imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ultricies magna at bibendum vehicula. Proin tortor velit, pellentesque ut tincidunt nec, malesuada id elit. Suspendisse aliquam rhoncus purus at imperdiet. Curabitur finibus risus id dui scelerisque congue.")
+    FavoriteThings(imageName: "Poolkirby", title: "Pool Kirby", navigationSubtitle: "Kirby is swimming in a pool.", imageCaption: "Kirby is swimming in a pool.", imageCredit: "Photo credit: kirbynation", bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex vel efficitur. Cras congue congue laoreet. Aliquam vehicula sollicitudin lectus a imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ultricies magna at bibendum vehicula. Proin tortor velit, pellentesque ut tincidunt nec, malesuada id elit. Suspendisse aliquam rhoncus purus at imperdiet. Curabitur finibus risus id dui scelerisque congue.")
     
     ,
     
-    FavoriteThings(picName: "cat", title: "Cat", navigationSubtitle: "The lazy cat is trying to get up.", imageCaption: "The lazy cat is trying to get up.", imageCredit: "Photo credit: catnation", bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex vel efficitur. Cras congue congue laoreet. Aliquam vehicula sollicitudin lectus a imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ultricies magna at bibendum vehicula. Proin tortor velit, pellentesque ut tincidunt nec, malesuada id elit. Suspendisse aliquam rhoncus purus at imperdiet. Curabitur finibus risus id dui scelerisque congue.")
+    FavoriteThings(imageName: "cat", title: "Cat", navigationSubtitle: "The lazy cat is trying to get up.", imageCaption: "The lazy cat is trying to get up.", imageCredit: "Photo credit: catnation", bodyText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex vel efficitur. Cras congue congue laoreet. Aliquam vehicula sollicitudin lectus a imperdiet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ultricies magna at bibendum vehicula. Proin tortor velit, pellentesque ut tincidunt nec, malesuada id elit. Suspendisse aliquam rhoncus purus at imperdiet. Curabitur finibus risus id dui scelerisque congue.")
     
     ,
     
-    FavoriteThings(picName: "ParquedeRetiro", title: "El Parque de Retiro", navigationSubtitle: "One of Madrid's famous parks.", imageCaption: "Beautiful Scenery", imageCredit: "Photo credit: Lillian", bodyText: """
+    FavoriteThings(imageName: "ParquedeRetiro", title: "El Parque de Retiro", navigationSubtitle: "One of Madrid's famous parks.", imageCaption: "Beautiful Scenery", imageCredit: "Photo credit: Lillian", bodyText: """
                      Parque de Retiro is one of the most famous parks in Spain. Well, you are wondering how you know I know this, well, my brother and I went to Spain 2 years ago to study spanish (for about a month).
                 
                      The park is magical. And I'm being serious as there are many buskers playing acoustic music while you are taking a breeze through the giant, refreashing, green park.
@@ -49,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex
     
     ,
     
-    FavoriteThings(picName: "Alhambra", title: "La Alhambra", navigationSubtitle: "Granada's palace.", imageCaption: "Wow", imageCredit: "Photo credit: Howard", bodyText: """
+    FavoriteThings(imageName: "Alhambra", title: "La Alhambra", navigationSubtitle: "Granada's palace.", imageCaption: "Wow", imageCredit: "Photo credit: Howard", bodyText: """
                 La Alhambra. LA ALHAMBRA! I cannot stress enough, but this was the ONE. This is probably my favorite destination when I visited Spain. It is located in Granada which is in the south of Spain.
                      
                      La Alhambra is one of the palaces in Spain that was relevant during the Islamic Rule. The architecture is unbelievable; a mix of mostly Islamic arhictecture, and Spanish architecture. Just thinking about the interior, makes me want to re-visit the palace.
@@ -61,7 +61,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus commodo ex
     
     ,
     
-    FavoriteThings(picName: "Duoli", title: "Duoli", navigationSubtitle: "My favorite dog.", imageCaption: "Cute", imageCredit: "Cute", bodyText: """
+    FavoriteThings(imageName: "Duoli", title: "Duoli", navigationSubtitle: "My favorite dog.", imageCaption: "Cute", imageCredit: "Cute", bodyText: """
                      
                 Duoli is my favorite Rottweiler. She is adorable, frightening, protective, silly, aggressive, empathetic and quite small. She is really, a one of a kind dog.
                 
