@@ -15,7 +15,7 @@ struct ListCaptionView: View {
     
     var body: some View {
         
-        NavigationLink(destination: ContentView()) {
+        NavigationLink(destination: DetailView(item: <#FavoriteThings#>)) {
             HStack {
                 Image(listImageName)
                     .resizable()

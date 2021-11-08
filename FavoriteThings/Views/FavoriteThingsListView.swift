@@ -11,21 +11,25 @@ struct FavoriteThingsListView: View {
     var body: some View {
         List{
             
-            ListCaptionView(listImageName: "Kirby", listText: "Kirby", listText2: "A really blurry picture of Kirby singing.")
+            ForEach(listOfItems) { currentItem in
+                
+                NavigationLink(destination: {
+                    
+                    DetailView(item: currentItem)
+                    
+                }, label: {
+                    
+                    ListCaptionView(listImageName: currentItem.imageName, listText: currentItem.title, listText2: currentItem.navigationSubtitle)
+                })
+                
+                
+                
+            }
             
-            ListCaptionView(listImageName: "Poolkirby", listText: "Pool Kirby", listText2: "Kirby is swimming in a pool.")
-            
-            ListCaptionView(listImageName: "cat", listText: "Cat", listText2: "The lazy cat is trying to get up.")
-            
-            ListCaptionView(listImageName: "ParquedeRetiro", listText: "El Parque de Retiro", listText2: "One of Madrid's famous parks.")
-            
-            ListCaptionView(listImageName: "Alhambra", listText: "La Alhambra", listText2: "Granada's palace.")
-            
-            ListCaptionView(listImageName: "Duoli", listText: "Duoli", listText2: "My favorite dog.")
         }
         .navigationTitle("My Favorite Things")
     }
-        
+    
 }
 
 
